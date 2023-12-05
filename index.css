@@ -123,14 +123,27 @@ h2{
     z-index: 2;
     margin: 0;
     right: 50px;
-    font-size: 17.9px;
     height: auto;
     width: 200px;
-    line-height: 16.2px;
+    line-height: 20.2px;
     font-weight: 600;
     color: #ED3F1C;
+    font-size: 21.6px;
    opacity: 0;
    transition: all .5s ease-in-out 0s;
+}
+.creativeTeam .message p.long{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.creativeTeam .message p.medium{
+    font-size: 21px;
+    line-height: 18px;
+}
+
+.creativeTeam .message p.short{
+    font-size: 24.6px;
 }
 
 .creativeTeam .message.active p{
@@ -187,8 +200,21 @@ footer{
     }
     .creativeTeam .message p{
         right: 53px;
-        font-size: 16px;
+        font-size: 19px;
         width: 188px!important;
+    }
+    .creativeTeam .message p.long{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .creativeTeam .message p.medium{
+        font-size: 19px;
+        line-height: 18px;
+    }
+    
+    .creativeTeam .message p.short{
+        font-size: 21.6px;
     }
 }
 
@@ -271,8 +297,8 @@ footer{
     border: 4px solid #c1432d;
     background-color: #f9421c;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     cursor: pointer;
     z-index: 9;
   }
